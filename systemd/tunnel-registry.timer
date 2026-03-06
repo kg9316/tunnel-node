@@ -1,0 +1,11 @@
+[Unit]
+Description=Run tunnel registry updater every 5 seconds
+
+[Timer]
+OnBootSec=5s
+OnUnitActiveSec=5s
+AccuracySec=1s
+Unit=tunnel-registry.service
+
+[Install]
+WantedBy=timers.target
