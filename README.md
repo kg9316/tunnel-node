@@ -1,6 +1,7 @@
 # tunnel-node
 
 This repository packages the tunnel node setup exported from the running server and turns it into a repeatable deployment.
+Pinggy clone :-)
 
 ## What it includes
 - OpenSSH tunnel endpoint on ports 22 and 443
@@ -23,7 +24,7 @@ This repo reflects the exported server state. It does **not** yet include the ne
 
 ## Quick start
 ```bash
-sudo ./install.sh
+curl -s https://raw.githubusercontent.com/kg9316/tunnel-node/main/install.sh | sudo bash
 ```
 
 ## After install
